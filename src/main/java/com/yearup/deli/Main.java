@@ -246,6 +246,7 @@ public class Main {
         for (Chips chips : order.getChipsList()) {
             System.out.println(chips);
         }
+        double totalPrice = order.getTotalPrice();
 
         System.out.println("1. Confirm your order");
         System.out.println("0. Cancel order");
